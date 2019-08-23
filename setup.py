@@ -1,22 +1,22 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='rasterfairy',
+    name='rasterfairy-py3',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0.4',
+    version='1.0.5',
 
     description='Transform a 2D point cloud into a regular raster',
     long_description="Transform any kind of 2D point cloud into a regular raster whilst trying to preserve the neighborhood relations that were present in the original cloud. A typical use case is if you have a similarity clustering of images and want to show the images in a regular table structure.",
 
     # The project's main homepage.
-    url='https://github.com/quasimondo/RasterFairy',
+    url='https://github.com/pechyonkin/RasterFairy-Py3',
 
     # Author details
-    author='Mario Klingemann',
-    author_email='quasimondo@gmail.com',
+    author='Max Pechyonkin',
+    author_email='maxim.pechyonkin@gmail.com',
 
     # Choose your license
     license='GNU GPL v3',
@@ -34,7 +34,7 @@ setup(
         'Topic :: Software Development :: Build Tools',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: GNU GPL v3 License',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
@@ -45,6 +45,7 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 
     # What does your project relate to?
