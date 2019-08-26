@@ -4,7 +4,7 @@ This is a fork of the official RasterFairy that has Python 3 support. Since the 
 
 ## Installation
 
-RasterFairy-Py3 is available on [pip]():
+RasterFairy-Py3 is available on [pip](https://pypi.org/project/rasterfairy-py3/):
 
 `pip install rasterfairy-py3`
 
