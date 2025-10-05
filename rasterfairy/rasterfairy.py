@@ -135,7 +135,7 @@ def transformPointCloud2D( points2d, target = None, autoAdjustCount = True, prop
             q['grid'][1] *= f
 
     for q in quadrants:
-        gridPoints2d[q['indices'][0]] = np.array(q['grid'][0:2],dtype=np.float)
+        gridPoints2d[q['indices'][0]] = np.array(q['grid'][0:2],dtype=float)
 
     return gridPoints2d, (width, height)
 
